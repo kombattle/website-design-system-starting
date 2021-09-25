@@ -23,7 +23,8 @@ header {
 section {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    border: 2px dotted black;
+    margin: 20px 0;
 }
 
 p {
@@ -183,4 +184,41 @@ font-family: 'Patrick Hand', cursive;
 
 .regular-text {
     font-style: normal;
+}
+
+/* text styles section */
+
+.text-box {
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+ul {
+    padding: 0 50px;
+    font-size: 14px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.text-box h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Merriweather', serif;
+}
+
+.text-box h2 {
+    font-weight: 600;
+    font-size: 20px;
+    font-family:'Fira Sans', sans-serif;
+}
+
+.text-box h3 {
+    font-weight: 600;
+    font-size: 18px;
+    font-family:'Fira Sans', sans-serif;
+}
+
+.text-box p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Fira Sans', sans-serif;
 }
