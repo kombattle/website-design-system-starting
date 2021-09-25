@@ -1,10 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Chewy&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Fira+Sans:ital,wght@0,400;0,700;1,100&family=Kalam:wght@300;400;700&family=Merriweather:ital,wght@0,400;0,700;1,300&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Fira+Sans:ital,wght@0,400;0,700;1,100&family=Merriweather:ital,wght@0,400;0,700;1,300&family=Patrick+Hand&display=swap');
 
 /*font family for font section*/
-/*font-family: 'Boogaloo', cursive;
-font-family: 'Chewy', cursive;
+/*
+font-family: 'Boogaloo', cursive;
 font-family: 'Courier Prime', monospace;
 font-family: 'Fira Sans', sans-serif;
-font-family: 'Kalam', cursive;
 font-family: 'Merriweather', serif;
-font-family: 'Patrick Hand', cursive;*/
+font-family: 'Patrick Hand', cursive;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    margin: 0 12%;
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+/* color section */
+
+.topic-head {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px 5px;
+
+}
+
+.color-chart {
+    margin: 10px 5px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.colorbox-1 {
+    background-color: steelblue;
+    color: #eee;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.colorbox-2 {
+    background-color: #fff0f5;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.colorbox-3 {
+    background-color: #556b2f;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.colorbox-4 {
+    background-color: rgb(255, 218, 185);
+    width: 30%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.colorbox-5 {
+    background-color: rgb(75, 0, 130);
+    width: 30%;
+    height: 100px;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.colorbox-6 {
+    background-color: rgb(255, 250, 205);
+    width: 30%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
